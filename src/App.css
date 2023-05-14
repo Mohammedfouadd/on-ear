@@ -1,0 +1,121 @@
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  }
+  html{
+      scroll-behavior: smooth;
+      line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  }
+ 
+  a{
+      text-decoration: none;
+  }
+  ul{
+      list-style: none;
+      margin: 0;
+      padding: 0;
+  }
+
+body{
+  background-color: #0F0F10;
+  font-family: 'poppins';
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-hero{
+  /* background: linear-gradient(180deg, #424245 0%, rgba(102, 102, 122, 0) 100%); */
+  font-weight: 600;
+  font-size: 120px;
+  line-height: 108px;
+  color: #ffffff3a;
+  line-height: 96px;
+}
+
+/* Small */
+@media (max-width: 768px) {
+  .containerr{
+    width: 750px;
+  }
+  .text-hero {
+    font-size: 60px;
+
+  }
+  .navs{
+     display: none !important;  
+  }
+  .bigEar{
+    position: absolute;
+    z-index: -5;
+    width: 220px;
+    right: 1px;
+    top: -116px;
+  }
+  .navs ul li{
+    margin-bottom: 10px;
+  }
+  .icon{
+    display: block !important;
+  }
+ .imageCase{
+  width:300px ;
+  position: absolute;
+  height: 206px;
+  right: -150px;
+  top: 80px;
+
+ }
+}
+@media (min-width: 640px) {
+  .container {
+      max-width: 640px;
+      padding-right: 2rem/* 32px */;
+      padding-left: 2rem/* 32px */;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .containerr{
+    width: 970px;
+  }
+  .text-hero {
+    font-size: 100px;
+
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .containerr{
+    width: 1170px;
+  }
+  .nav{
+    margin-right: 200px;
+  }
+}
+
+
+
+.listt{
+  box-shadow: 0 0px 10px rgb(255 255 255 / 0.6);
+}
+.mainText {
+  background: -webkit-linear-gradient(rgb(80, 80, 90, 1),
+  rgba(102, 102, 122, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.contanirChoose{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(162px, 1fr));
+  gap: 10px;
+}
